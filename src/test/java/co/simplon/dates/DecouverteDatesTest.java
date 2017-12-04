@@ -32,8 +32,8 @@ public class DecouverteDatesTest {
 	}
 	
 	@Test
-	public void la_date_3_juin_2017_doit_etre_superieure_a_la_date_courante() throws ParseException {
-		Date date3Juin = new SimpleDateFormat("ddMMyy").parse("030617");
+	public void la_date_3_juin_2018_doit_etre_superieure_a_la_date_courante() throws ParseException {
+		Date date3Juin = new SimpleDateFormat("ddMMyy").parse("030618");
 		
 		boolean resultatComparaison = dd.estInferieurDateCourante(date3Juin);
 		
